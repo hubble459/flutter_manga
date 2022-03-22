@@ -1,0 +1,43 @@
+{
+    "cmake.configureOnOpen": false,
+    "cSpell.words": [
+        "Schyler"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "linux": true,
+        "ios": true,
+        ".dart_tool": true,
+        ".idea": true,
+        ".vscode": true,
+        ".flutter-plugins": true,
+        ".flutter-plugins-dependencies": true,
+        ".metadata": true,
+        ".packages": true,
+        "pubspec.lock": true,
+        "build": true
+    },
+    "hide-files.files": [
+        "linux",
+        "ios",
+        ".dart_tool",
+        ".idea",
+        ".vscode",
+        "android",
+        ".flutter-plugins",
+        ".flutter-plugins-dependencies",
+        ".metadata",
+        ".packages",
+        "pubspec.lock",
+        "build"
+    ]
+}

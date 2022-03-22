@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\manga_scraper"
+		}
+	],
+	"settings": {
+		"hide-files.files": [
+			"linux",
+			"ios",
+			".dart_tool",
+			".idea",
+			".vscode",
+			".flutter-plugins",
+			".flutter-plugins-dependencies",
+			".metadata",
+			".packages",
+			"pubspec.lock",
+			"build"
+		],
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "SQLite",
+				"name": "manga",
+				"database": "${workspaceFolder:manga_reader_standalone}/manga.db"
+			}
+		],
+		"sqltools.useNodeRuntime": true
+	}
+}
